@@ -36,7 +36,7 @@ public class Main {
                 2022, 12, 24, 0, 0, 0.0, TimeScalesFactory.getUTC()
         );
         AbsoluteDate t1 = new AbsoluteDate(
-                2022, 12, 25, 0, 0, 0.0, TimeScalesFactory.getUTC()
+                2022, 12, 24, 0, 3, 0.0, TimeScalesFactory.getUTC()
         );
 
         Multithreading object = new Multithreading("test.csv", "src/3le.txt", PmTLE, t0, t1);
